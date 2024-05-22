@@ -1,0 +1,43 @@
+header {
+    flex: 1;
+    background: #221d21;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header #header-logo {
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+header nav ul li{
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+header nav ul li a:hover{
+    opacity: 0.6;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
